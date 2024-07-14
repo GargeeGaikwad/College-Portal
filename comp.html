@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+    <h1>{{head_msg}}</h1>
+    <ul>
+        <li><h3>{{sub_msg1}}</h3></li>
+        <li><h3>{{sub_msg2}}</h3></li>
+        <li><h3>{{sub_msg3}}</h3></li>
+        <li><h2>{{sub_msg4}}</h2></li>
+        <li><h3>{{sub_msg5}}</h3></li>
+        <li><h3>{{sub_msg6}}</h3></li>
+        <li><h3>{{sub_msg7}}</h3></li>
+        <li><h3>{{sub_msg8}}</h3></li>
+    </ul>
+    {% load static %}
+    <img src="{% static 'images/comp3.jfif' %}" alt="My image">
+</body>
+</html>
+
+
